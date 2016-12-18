@@ -57,7 +57,7 @@ import vocabulary
 
 def get_corpus(name="movie_reviews"):
     if not name == "movie_reviews":
-        return nltk.corpus.PlaintextCorpusReader('./', name+'.txt')
+        return nltk.corpus.CategorizedPlaintextCorpusReader('./'+name+'/', r'.*\.txt', cat_pattern=r'(\w+)\.txt')
     return nltk.corpus.__getattr__(name)
 
 def build_vocab(corpus, V=10000):
