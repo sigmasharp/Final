@@ -1,6 +1,0 @@
-model_checkpoint_path: "rnnlm_nytcorpus-7"
-all_model_checkpoint_paths: "rnnlm_nytcorpus-3"
-all_model_checkpoint_paths: "rnnlm_nytcorpus-4"
-all_model_checkpoint_paths: "rnnlm_nytcorpus-5"
-all_model_checkpoint_paths: "rnnlm_nytcorpus-6"
-all_model_checkpoint_paths: "rnnlm_nytcorpus-7"
